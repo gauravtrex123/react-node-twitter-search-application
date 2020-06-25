@@ -59,7 +59,7 @@ class TwitterSearch extends React.Component {
               var date = new Date((data.created_at == undefined ? data.user.created_at : data.created_at));
               return (
                 <div className="tweet-container">
-                  <div className="tweet-first-row">
+                  <div className="tweet-first-row"> 
                     <div className="tweet-profile-container">
                       <img className="tweet-image" src={(data.profile_image_url == undefined ? data.user.profile_image_url : data.profile_image_url)} />
                       <div className="tweet-u-s-container">
