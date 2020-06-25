@@ -1,0 +1,16 @@
+{
+  "name": "react-node-twitter-sample-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && cd client && npm install && npm run build && cd .. && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "twitter": "^1.7.1"
+  }
+}
