@@ -4,10 +4,10 @@ const path = require('path');
 const port = process.env.PORT || 5000;
 const twitter = require('twitter');
 const config = {
-    consumer_key: 'vYUndjckqAqZsqKxo8EU54fkn',
-    consumer_secret: 'eooHi1h4YICs5CI859HT0xdLqMOKU6jaZFAJ9UmjU4CLo0nEQc',
-    access_token_key: '902163740430295045-4Gxg4d9oC14COoWnMJxz5RlsgOvp8K9',
-    access_token_secret: 'aV7odHqmrFnwFVEC8m5MjoDo0YBV0yja5caEadqkUYy8K'
+    consumer_key: '',
+    consumer_secret: '',
+    access_token_key: '',
+    access_token_secret: ''
 }
 
 const twitterCall = twitter(config);
